@@ -242,9 +242,10 @@ const UserSignUp2 = () => {
         Swal.fire({
           icon: 'success',
           title: 'Registration Successful',
-          text: 'You have successfully registered. Please check your email inbox or spam folder for otp',
+          text: 'You have successfully registered. Please login',
         });
-        navigate('/verifyemail');
+        // navigate('/verifyemail');
+        navigate('/login');
       } else {
         Swal.fire({
           icon: 'error',
